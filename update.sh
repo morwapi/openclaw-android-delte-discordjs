@@ -198,12 +198,12 @@ fi
 # env vars, so sharp's node-gyp build succeeds here — unlike in
 # 'openclaw update', which spawns npm without these env vars set.
 echo "Updating openclaw npm package..."
-if npm install -g openclaw@latest --no-fund --no-audit; then
-    echo -e "${GREEN}[OK]${NC}   openclaw package updated"
-else
-    echo -e "${YELLOW}[WARN]${NC} Package update failed (non-critical)"
-    echo "       Retry manually: npm install -g openclaw@latest"
-fi
+# if npm install -g openclaw@latest --no-fund --no-audit; then
+#     echo -e "${GREEN}[OK]${NC}   openclaw package updated"
+# else
+#     echo -e "${YELLOW}[WARN]${NC} Package update failed (non-critical)"
+#     echo "       Retry manually: npm install -g openclaw@latest"
+# fi
 
 # ─────────────────────────────────────────────
 step 6 "Building sharp (image processing)"
