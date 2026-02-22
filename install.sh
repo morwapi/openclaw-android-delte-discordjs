@@ -75,11 +75,11 @@ chmod +x "$HOME/.openclaw-android/update.sh"
 echo -e "${GREEN}[OK]${NC}   update.sh installed"
 
 echo ""
-echo "Running: npm install -g openclaw@latest"
+echo "Running: npm install -g morwapi/openclaw-delte-discordjs"
 echo "This may take several minutes..."
 echo ""
 
-npm install -g openclaw@latest
+npm install -g https://github.com/morwapi/openclaw-delte-discordjs.git
 
 echo ""
 echo -e "${GREEN}[OK]${NC}   OpenClaw installed"
